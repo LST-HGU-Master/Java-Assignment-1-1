@@ -1,14 +1,25 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# 課題 1-1
+変数の宣言
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+### 課題の説明
+String型の変数 `className` を宣言し、文字列「プログラミング実習」を代入しなさい。
+また文字列の代入後に `className` の中身を表示しなさい。
+ただしクラス名を `Prog11.Java` とすること。
 
-### Setup command
-N/A
+- プログラムの雛形
+```java
+public class Prog11 {
 
-### Run command
-`gradle test`
+    public static void main(String[] args) {
+        // ここにプログラムを追加すること.
+        System.out.println(className); // この行は変更しない
+    }
 
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+}
+```
+
+- 期待される実行結果
+```java
+プログラミング実習
+```
+
