@@ -17,7 +17,7 @@ public class Prog11Test {
         Prog11.main(null);
 
         // assertion
-        assertEquals("プログラミング実習\n", bos.toString());
+        assertEquals("プログラミング実習" + System.lineSeparator(), bos.toString());
 
         // undo the binding in System
         System.setOut(originalOut);
